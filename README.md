@@ -4,7 +4,15 @@ This project was created by following command.
 npx create-next-app -e with-supabase
 ```
 
-https://github.com/vercel/next.js/tree/canary/examples/with-supabase/app/auth
+# Setup
+
+Go to [Vercel](https://vercel.com/), create a new project, and deploy.
+Go to storage section, select "Create Databse", and connect to supabase.
+Go to Authentication > URL Configuration > Site URL and put your Vercel URL.
+
+# Features
+
+-
 
 <a href="https://demo-nextjs-with-supabase.vercel.app/">
   <img alt="Next.js and Supabase Starter Kit - the fastest way to build apps with Next.js and Supabase" src="https://demo-nextjs-with-supabase.vercel.app/opengraph-image.png">
