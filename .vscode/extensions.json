@@ -14,6 +14,7 @@
     "vincaslt.highlight-matching-tag",
     "SirTori.indenticator",
     "ms-vscode.vscode-typescript-next",
-    "skyran.js-jsx-snippets"
+    "skyran.js-jsx-snippets",
+    "denoland.vscode-deno"
   ]
 }

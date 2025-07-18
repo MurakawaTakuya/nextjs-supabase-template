@@ -1,18 +1,44 @@
-This project was created by following command.
+# Setup
+1. Go to [Vercel](https://vercel.com/), create a new project of this repository(fork this repository first), and deploy.
+2. Go to storage section, select "Create Database", and connect to supabase.
+3. Go to Authentication > URL Configuration > Site URL and put your Vercel URL.
+4. You will need to [update your Supabase project](https://supabase.com/dashboard/project/_/auth/url-configuration) with redirect URLs based on your Vercel deployment URLs.
+   - `http://localhost:3000/**`
+   - `(Your vercel URL)`
 
+# Emulate in local
+Install the Supabase CLI:
+```bash
+npm install supabase --save-dev
+```
+
+In your repository, initialize the Supabase project:
+```bash
+npx supabase init
+```
+
+Start the Supabase stack:
+```bash
+npx supabase start
+```
+
+Stop the Supabase stack:
+```bash
+npx supabase stop
+```
+
+# About this repository
+This repository extends the project created by following commands.
 ```bash
 npx create-next-app -e with-supabase
 ```
-
-# Setup
-
-Go to [Vercel](https://vercel.com/), create a new project, and deploy.
-Go to storage section, select "Create Databse", and connect to supabase.
-Go to Authentication > URL Configuration > Site URL and put your Vercel URL.
-
-# Features
-
--
+Following features are added:
+- eslint
+- prettier
+- stylelint
+- scss
+- recommended VSCode extensions (Install extensions by searching `@recommended` in extensions menu)
+- settings.json for VSCode
 
 <a href="https://demo-nextjs-with-supabase.vercel.app/">
   <img alt="Next.js and Supabase Starter Kit - the fastest way to build apps with Next.js and Supabase" src="https://demo-nextjs-with-supabase.vercel.app/opengraph-image.png">
