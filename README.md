@@ -6,7 +6,13 @@
    - `http://localhost:3000/**`
    - `(Your vercel URL)`
 
-# Emulate in local
+# Local development
+## Start the Next.js app
+```bash
+npm run dev
+```
+
+## Emulate supabase in local
 Install the Supabase CLI:
 ```bash
 npm install supabase --save-dev
